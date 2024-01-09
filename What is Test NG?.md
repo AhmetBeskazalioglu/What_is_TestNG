@@ -61,7 +61,7 @@ To better understand what each annotation does, you can refer to the [TestNG Doc
 
 ---
 
-1. **Test Configuration:** TestNG allows the configuration of tests through XML files, where you can define test suites, parallel execution, dependencies between test methods, and more. This makes it easy to manage and customize test execution.
+2. **Test Configuration:** TestNG allows the configuration of tests through XML files, where you can define test suites, parallel execution, dependencies between test methods, and more. This makes it easy to manage and customize test execution.
     
     ### Sample TestNG XML File:
     
@@ -102,7 +102,7 @@ This XML file serves as an example for configuring test packages, suites, parall
 
 ---
 
-1. **Parallel Execution:** TestNG supports parallel test execution, allowing tests to run concurrently, which can significantly reduce the overall test execution time. This is beneficial when dealing with a large number of test cases.
+3. **Parallel Execution:** TestNG supports parallel test execution, allowing tests to run concurrently, which can significantly reduce the overall test execution time. This is beneficial when dealing with a large number of test cases.
     
     ### Example:
     
@@ -165,7 +165,7 @@ This XML file serves as an example for configuring test packages, suites, parall
     
     ---
     
-2. **Dependency Management:** TestNG allows the definition of dependencies between test methods, ensuring that certain methods are executed in a specific order. This is useful for scenarios where one test method depends on the success of another.
+4. **Dependency Management:** TestNG allows the definition of dependencies between test methods, ensuring that certain methods are executed in a specific order. This is useful for scenarios where one test method depends on the success of another.
 
 Dependencies are expressed using the **`dependsOnMethods`** or **`dependsOnGroups`** attributes. 
 
@@ -208,7 +208,7 @@ Dependencies can help you better organize your test processes by ensuring that t
 
 ---
 
-1. **Data-Driven Testing:** TestNG supports data-driven testing, allowing the same test method to be executed with different sets of data. This is achieved through the use of data providers.
+5. **Data-Driven Testing:** TestNG supports data-driven testing, allowing the same test method to be executed with different sets of data. This is achieved through the use of data providers.
     
     To perform data-driven testing with TestNG, the **`@DataProvider`** annotation is commonly used. This allows running the same test method with different sets of data.
     
@@ -262,11 +262,11 @@ Dependencies can help you better organize your test processes by ensuring that t
     
     ---
     
-2. **Reporting:** TestNG generates detailed and user-friendly HTML reports, making it easy to analyze test results. These reports include information about passed and failed tests, execution time, and more.
+6. **Reporting:** TestNG generates detailed and user-friendly HTML reports, making it easy to analyze test results. These reports include information about passed and failed tests, execution time, and more.
 
 ---
 
-1. **Integration with Other Tools:** TestNG can be integrated with various build tools such as Maven and Gradle. It is also commonly used in conjunction with Selenium for web application testing.
+7. **Integration with Other Tools:** TestNG can be integrated with various build tools such as Maven and Gradle. It is also commonly used in conjunction with Selenium for web application testing.
 
 ---
 
